@@ -73,4 +73,30 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+//    @Override
+//    protected void onStop() {
+//        super.onStop();
+//        if(!savedIns){
+//            String email = usernameEmail.getText().toString().trim();
+//            String password = this.password.getText().toString().trim();
+//
+//            if(!email.isEmpty() && !password.isEmpty()){
+//                editor.putString(EMAIL,email);
+//                editor.putString(PASSWORD, password);
+//                editor.putBoolean("FLAG",FLAG);
+//                editor.commit();
+//            }
+//        }
+//    }
+//
+//    private void checkData() {
+//        boolean f = pref.getBoolean("FLAG" , false);
+//        if(f){
+//            String email = pref.getString(EMAIL,"");
+//            String password = pref.getString(PASSWORD,"");
+//            this.usernameEmail.setText(email);
+//            this.password.setText(password);
+//        }
+//    }
 }
